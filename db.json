@@ -1,0 +1,88 @@
+{
+  "sites": [
+    {
+      "id": "1",
+      "name": "Hastane Kampüsü",
+      "location": "İstanbul",
+      "buildings": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Üniversite Kampüsü",
+      "location": "Ankara",
+      "buildings": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Çukurova Havalimanı",
+      "location": "Mersin",
+      "buildings": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "4",
+      "name": "İzmir Teknoloji Parkı",
+      "location": "İzmir",
+      "buildings": [
+        1,
+        2
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": "1",
+      "name": "A Blok",
+      "siteId": 1,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mühendislik Fakültesi",
+      "siteId": 2,
+      "levels": [
+        1,
+        2
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "id": "1",
+      "name": "Zemin Kat",
+      "buildingId": 1
+    },
+    {
+      "id": "2",
+      "name": "1. Kat",
+      "buildingId": 1
+    },
+    {
+      "id": "3",
+      "name": "2. Kat",
+      "buildingId": 1
+    },
+    {
+      "id": "4",
+      "name": "Zemin Kat",
+      "buildingId": 2
+    },
+    {
+      "id": "5",
+      "name": "1. Kat",
+      "buildingId": 2
+    }
+  ]
+}
